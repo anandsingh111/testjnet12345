@@ -1,0 +1,274 @@
+.titleContainer,
+.aboutcontainer2,
+.aboutcontainer3,
+.aboutcontainer4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0rem;
+  line-height: 44px;
+}
+
+.titleContainer {
+  padding: 2rem 0rem;
+  margin-top: 80px;
+  background-color: #013398;
+}
+.text1 {
+  font-size: 20px;
+  margin-bottom: 0rem;
+}
+.text2 {
+  font-size: 54px;
+  font-weight: bold;
+}
+.text3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.aboutcontainer2 {
+  background-color: #fff;
+}
+.textSupport {
+  font-size: 24px;
+}
+.aboutcontainer3 {
+  background-color: #990001;
+}
+.client {
+  font-size: 54px;
+  color: #000;
+}
+
+.para1 {
+  font-size: 24px;
+}
+.clientHeading {
+  border-top: 4px solid #171fe2;
+  width: 260px;
+  height: 200px;
+}
+.clientHeadingP1 {
+  font-size: 24px;
+  color: #000;
+}
+.clientHeadingP2 {
+  font-size: 18px;
+}
+.independence {
+  border-top: 4px solid #000;
+  width: 260px;
+  height: 200px;
+}
+.independenceP1 {
+  font-size: 24px;
+  color: #000;
+}
+.independenceP2 {
+  font-size: 18px;
+  color: #000;
+}
+.aboutcontainer4 {
+  background-color: #013398;
+}
+.flexibility {
+  font-size: 54px;
+  font-weight: bold;
+}
+.flexibilityPara1 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.flexibilityhead {
+  font-size: 24px;
+  font-weight: bold;
+}
+.flexibilityPara2 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.speedHeading {
+  font-size: 54px;
+  font-weight: bold;
+  color: #000;
+}
+.engagementHeading {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+}
+.engagementpara {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 27px;
+}
+.fastDeliviery {
+  width: 260px;
+  border-top: 4px solid #171fe2;
+}
+.fastDelivieryHeading {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+}
+.fastDelivieryPara {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 27px;
+}
+
+.elasticity {
+  width: 260px;
+  border-top: 4px solid #000;
+}
+.elasticityHeading {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+}
+.elasticityPara {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 27px;
+}
+@media screen and (max-width: 480px) {
+  .titleContainer {
+    height: 340px;
+    background-color: #171fe2;
+    justify-content: center;
+    line-height: 34px;
+    padding: 0px 12px;
+  }
+
+  .text1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .text2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .text3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: lighter;
+  }
+  .aboutcontainer2 {
+    background-color: #fff;
+    padding: 0px 12px;
+    line-height: 30px;
+  }
+  .textSupport {
+    font-size: 18px;
+  }
+  .aboutcontainer3 {
+    background-color: #990001;
+    padding: 20px 12px;
+  }
+  .client {
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .para1 {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .clientHeading {
+    border-top: none;
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+  }
+  .clientHeadingP1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+  }
+  .clientHeadingP2 {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .independence {
+    border-top: none;
+    width: 100%;
+    height: 200px;
+  }
+  .independenceP1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+  }
+  .independenceP2 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 100;
+  }
+  .aboutcontainer4 {
+    background-color: #171fe2;
+    padding: 0px 12px;
+  }
+  .flexibility {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .flexibilityPara1 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .flexibilityhead {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .flexibilityPara2 {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  .speedHeading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+  }
+  .engagementHeading {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+  }
+  .engagementpara {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 27px;
+  }
+  .fastDeliviery {
+    width: 100%;
+    border-top: none;
+    padding-top: 43px;
+  }
+  .fastDelivieryHeading {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+  }
+  .fastDelivieryPara {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 27px;
+  }
+
+  .elasticity {
+    width: 100%;
+    border-top: none;
+    padding-top: 43px;
+  }
+  .elasticityHeading {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+  }
+  .elasticityPara {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 27px;
+  }
+}

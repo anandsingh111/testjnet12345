@@ -1,0 +1,93 @@
+.bannerContainer {
+  min-height: 40vh;
+  width: 100%;
+  margin-top: 5rem;
+  padding: 0 6rem;
+}
+
+.bannerContainer .bannerMain {
+  display: flex;
+  width: 100%;
+  min-height: 40vh;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bannerContainer .bannerMain .bannerLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+  background-image: url("https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  padding: 0 5rem;
+  justify-content: center;
+}
+
+.bannerContainer .bannerMain .bannerLeft h1 {
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+.bannerContainer .bannerMain .bannerLeft .discoverButton {
+  display: none;
+}
+
+.bannerContainer .bannerMain .bannerRight {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  background-color: #000000;
+  padding: 0 4rem;
+  justify-content: center;
+}
+
+.bannerContainer .bannerMain .bannerRight .discoverButton {
+  display: flex;
+  background-color: #ffffff;
+  color: #000000;
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 0.7rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+  .bannerContainer {
+    min-height: 25vh;
+    margin: 0;
+    margin-bottom: 4rem;
+    padding: 0;
+    border: 1px solid red;
+  }
+
+  .bannerContainer .bannerMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 25vh;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .bannerContainer .bannerMain .bannerLeft {
+    background-image: url("https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    padding: 0 1rem;
+    justify-content: center;
+  }
+
+  .bannerContainer .bannerMain .bannerLeft .discoverButton {
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    align-self: flex-start;
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    font-weight: 700;
+  }
+
+  .bannerContainer .bannerMain .bannerRight {
+    display: none;
+    background-color: #000000;
+    padding: 0 4rem;
+    justify-content: center;
+  }
+}

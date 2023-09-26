@@ -1,0 +1,70 @@
+@font-face {
+  font-family: var(--font-mono);
+  src: url("../public/fonts/Aileron-Bold.otf");
+}
+.ChatBotSection {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  padding: 64px 0px;
+}
+.row h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: var(--font-mono);
+}
+.row p {
+  font-size: 18px;
+  font-family: var(--font-mono);
+}
+.getInTouchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  height: 48px;
+  padding: 12px 25px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-family: var(--font-mono);
+}
+@media screen and (max-width: 480px) {
+  .ChatBotSection {
+    display: flex;
+    width: 100%;
+    background-color: #171fe2;
+    /* padding: 64px 0px; */
+    padding: 40px 12px;
+  }
+  .row h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0px !important;
+    padding-bottom: 22px;
+  }
+  .row p {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0px !important;
+    padding-bottom: 25px;
+  }
+  .getInTouchBtn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .btn {
+    height: 48px;
+    padding: 12px 25px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 16px;
+  }
+}

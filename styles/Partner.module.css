@@ -1,0 +1,27 @@
+.partnerCard{
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    /* flex: 1; */
+}
+
+.partnerCardNew{
+    /* width: fit-content;
+    height: fit-content; */
+    /* border: 1px solid #fff; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; */
+    /* padding: 2rem; */
+    margin: 0 5rem;
+}
+
+.logo{
+    width: 100px;
+}

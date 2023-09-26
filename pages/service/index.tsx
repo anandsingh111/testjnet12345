@@ -1,0 +1,13 @@
+import React from 'react'
+
+type Props = {}
+
+const Service = (props: Props) => {
+  return (
+    <>
+    
+    </>
+  )
+}
+
+export default Service

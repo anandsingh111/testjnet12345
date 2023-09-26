@@ -1,0 +1,639 @@
+@font-face {
+  font-family: var(--font-mono);
+  src: url("../public/fonts/Aileron-Bold.otf");
+}
+.baseWrapper {
+  width: 100%;
+  padding: 3rem 0rem;
+  background-color: #f7f7f7;
+}
+.baseWrapper h2 {
+  color: #5c5c5c50;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.baseWrapper p {
+  color: #707070;
+  font-size: 0.875rem;
+  line-height: 26px;
+}
+.borderTitle {
+  position: relative;
+  width: 400px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 8px solid #003398;
+}
+.borderTitle:before {
+  position: absolute;
+  background: #990000;
+  height: 8px;
+  content: "";
+  width: 120px;
+  bottom: -8px;
+  left: 0;
+}
+.industryWrapper button,
+.csWrapper button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0rem;
+  border-color: #013398;
+  background-color: #013398;
+  margin-top: 1.5rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #013398;
+  /* padding-top: 80px; */
+}
+
+.landingContainer {
+  height: calc(90vh);
+  width: 100%;
+  background-image: url("../public/LandingSection-Background.svg");
+  background-repeat: no-repeat;
+  font-family: var(--font-mono);
+  background-position: 95% 770%;
+  background-size: 530px;
+  padding: 0rem;
+}
+
+.landingHeading h1 {
+  color: #000;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.landingText p {
+  font-size: 20px;
+  color: #000;
+  margin-right: 15rem;
+}
+.videoContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.videoContainer .homeVideo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.videoContainer .videoBackdrop {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #000;
+}
+.videoContainer .videoContent {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: calc(90vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.videoContainer .videoContent h1 {
+  font-weight: bold;
+}
+.videoContainer .videoContent h1,
+.videoContainer .videoContent p {
+  color: #fff;
+  font-family: var(--font-mono);
+}
+.videoContainer .videoContent p {
+  font-size: 0.875rem;
+}
+
+.responsiveIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.bannerWrapper {
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 45%,
+    #f7f7f7 45%,
+    #f7f7f7 100%
+  );
+  backdrop-filter: brightness(20%);
+  padding-top: 7rem;
+}
+.bannerWrapper .bannerTile {
+  position: absolute;
+  top: -80px;
+  right: 0rem;
+  padding: 2.5rem 7.25% 2.5rem 4%;
+  width: 50%;
+  color: #fff;
+  background-color: #013398;
+}
+.bannerWrapper .bannerTile h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 0rem;
+}
+.bannerWrapper .iconMedia {
+  width: 50px;
+  height: 50px;
+}
+.bannerWrapper .bannerMainPara {
+  font-size: 0.875rem;
+  color: #707070;
+}
+.bannerDescTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0rem 1.5rem 0rem;
+}
+
+.projectionWrapper {
+  width: 100%;
+  padding: 5rem 0rem 3rem 0rem;
+  background: transparent linear-gradient(180deg, #001f36 0%, #2b0000 100%) 0%
+    0% no-repeat padding-box;
+}
+.projectionWrapper .bannerHeader h2 {
+  opacity: 0.5;
+}
+.projectionWrapper h2,
+.projectionWrapper p {
+  color: #fff;
+}
+.iconNav {
+  width: 100%;
+  height: auto;
+}
+.imgCertification {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgProduct {
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clientsWrapper {
+  width: 100%;
+  color: #fff;
+  padding: 3rem 0rem;
+  background-color: #fff;
+}
+.industryWrapper {
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #013398;
+}
+.industryWrapper h2 {
+  opacity: 0.5;
+}
+.industryWrapper h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.industryWrapper h2,
+.industryWrapper p {
+  color: #fff;
+}
+.industryWrapper .tabWrapper {
+  display: flex;
+  background: #000 url("./../public/assets/banners/healthcare-banner.png")
+    no-repeat;
+  background-position: 100% 0%;
+}
+.industryWrapper .tabWrapper .tabContent {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 0rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.csWrapper {
+  padding: 5rem 0rem 2rem 0rem;
+}
+.bannerImg {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.csBanner {
+  position: relative;
+}
+.csBannerImgText {
+  width: 50%;
+  position: absolute;
+  right: 40px;
+  bottom: -60px;
+  padding: 2.5rem;
+  color: #fff;
+  text-align: left;
+  background-color: #013398;
+}
+.csBannerImgText h3,
+.csBannerImgText p {
+  color: #fff;
+}
+.csBannerImgText h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.csBannerImgText p {
+  font-size: 0.75rem;
+  margin-bottom: 0rem;
+}
+.csBannerContent {
+  padding: 3rem 0rem 3rem 5rem;
+}
+.csBannerContent h2 {
+  color: #000;
+  font-size: 2.5rem;
+  margin-bottom: 0rem;
+}
+.csBannerContent .borderTitle {
+  width: 120px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.csBannerContent .borderTitle::before {
+  width: 60px;
+}
+
+.ourProductsWrapper {
+  padding: 5rem 0rem;
+  background: transparent linear-gradient(180deg, #001f36 0%, #2b0000 100%) 0%
+    0% no-repeat padding-box;
+}
+.ourProductsWrapper h2,
+.ourProductsWrapper p {
+  color: #ffffff50;
+}
+
+.tilePrimary h3 {
+  font-weight: bold;
+}
+.tilePrimary p {
+  line-height: 28px;
+  margin-bottom: 0rem;
+}
+
+.socialLogos svg rect:hover {
+  fill: #fff;
+}
+
+.accordion {
+  background-color: transparent;
+  border: none !important;
+  margin-top: 51px;
+  box-shadow: 0;
+}
+.accordionItem {
+  background-color: transparent;
+  margin: 10px 0px;
+  position: relative;
+}
+.accordionHeader {
+  background-color: transparent;
+  color: #000;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.accordionButton {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+.accordion h2 button svg {
+  transition: all 0.4s ease;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+
+.accordion h2 button[aria-expanded="false"] svg {
+  rotate: 45deg;
+}
+
+.accordion h2 button[aria-expanded="true"] svg {
+  rotate: -45deg;
+}
+
+.accordionBody {
+  background-color: transparent;
+  color: #fff;
+}
+
+.accordionBody a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.accordionBody a:hover {
+  color: #171fe2;
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.slider .slideTrack {
+  animation: scroll 50s linear infinite;
+  /* animation-direction: reverse; */
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 200px;
+  width: 250px;
+}
+
+.sliderX {
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.sliderX .slideXTrack {
+  animation: scroll 50s linear infinite;
+  animation-direction: reverse;
+  display: flex;
+  width: calc(250px * 14);
+}
+.sliderX .slideX {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .landingContainer {
+    height: 353px;
+    width: 100%;
+    background-image: none;
+    font-family: var(--font-mono);
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .landingHeading {
+    padding-top: 23px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  /* landingContainer */
+
+  .landingHeading p {
+    color: #000;
+    height: 120px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .landingHeading br {
+    display: none;
+  }
+  .landingText p {
+    margin-top: 14px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 100;
+  }
+  /* bannerWrapper */
+
+  .bannerWrapper {
+    height: 930px;
+    width: 100%;
+    background-image: url("../public/Group\ 15.svg");
+    background-size: 150%;
+    background-position: 20% 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    backdrop-filter: brightness(20%);
+    color: #fff;
+  }
+  .bannerMain {
+    margin-top: 130px;
+    z-index: 9999;
+  }
+  .accordion {
+    background-color: transparent !important;
+    border: none !important;
+    margin-top: 88px;
+    width: 100%;
+  }
+
+  .accordionItem {
+    margin: 0px 0px;
+    position: relative;
+  }
+  .accordionHeader {
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .accordionButton {
+    background-color: transparent;
+    border: none;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .accordion h2 button svg {
+    transition: all 0.4s ease;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+  }
+
+  .accordion h2 button[aria-expanded="false"] svg {
+    rotate: 45deg;
+  }
+
+  .accordion h2 button[aria-expanded="true"] svg {
+    rotate: -45deg;
+  }
+
+  .accordionBody {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .accordionBody a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .accordionBody a:hover {
+    color: #171fe2;
+    cursor: pointer;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+  }
+  .slider .slideTrack {
+    animation: scroll 50s linear infinite;
+    /* animation-direction: reverse; */
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    height: 100px;
+    width: 180px;
+  }
+
+  .sliderX {
+    height: 100px;
+    margin: auto;
+
+    overflow: hidden;
+    position: relative;
+    width: auto;
+  }
+  .sliderX .slideXTrack {
+    animation: scroll 50s linear infinite;
+    animation-direction: reverse;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .sliderX .slideX {
+    height: 100px;
+    width: 180px;
+  }
+
+  .videoSection {
+    min-height: fit-content;
+    height: 15rem;
+    width: 100%;
+    padding: 0;
+    margin: 1rem 0 4rem 0;
+  }
+  .copyright {
+    padding: 0px 0px;
+  }
+  .socialLogos {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .socialLogos svg {
+    width: 65px;
+    height: 65px;
+  }
+  .copyright {
+    display: flex;
+    align-items: flex-start;
+  }
+  .copyright h6 {
+    width: 80%;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .landingContainer {
+    height: 353px;
+    width: 100%;
+    background-image: none;
+    font-family: var(--font-mono);
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+  }
+  .landingHeading {
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  /* landingContainer */
+
+  .landingHeading p {
+    color: #000;
+    height: 120px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .landingText p {
+    margin-top: 14px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 100;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .landingHeading p {
+    margin: 0px;
+    color: #000;
+    height: 120px;
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
